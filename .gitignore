@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Local training and evaluation data
+dataset/
+test_dataset/
+
+# Local feedback uploads
+feedback_data/

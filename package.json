@@ -1,0 +1,26 @@
+{
+  "name": "plant-diagnosis-gateway",
+  "version": "1.0.0",
+  "description": "Express gateway for the Plant Disease Detection AI system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "start:ai": "python prediction.py",
+    "start:all": "concurrently \"npm run start:ai\" \"npm run start\""
+  },
+  "keywords": ["plant-disease", "ai", "agriculture"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

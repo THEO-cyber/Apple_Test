@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/micha/Desktop/PeopleProject/frontend/test_apple/lib/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\micha\\Desktop\\PeopleProject\\frontend\\test_apple\\lib"
+    ]
+  }
+}
